@@ -2,7 +2,7 @@ import './App.css';
 import {useState} from 'react';
 
 const URL = 'http://api.exchangeratesapi.io/v1//latest?access_key=';
-const API_KEY = 'd213312856a40766f18643b3b5c1eb3a';
+const API_KEY = 'null';
 
 function App() {
 
@@ -33,7 +33,7 @@ function App() {
 
   return (
 
-    <div id="container" style={{margin: 50}}>
+    <div id="container">
       <form onSubmit={convert}>
         <div>
           <label>Eur</label>&nbsp;
